@@ -344,4 +344,8 @@ body{
         padding-bottom: 2rem;
     }
 
+    .mobile-break{
+        display: block;
+    }
+
 }
