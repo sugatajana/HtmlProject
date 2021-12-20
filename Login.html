@@ -3,24 +3,49 @@
 <head>
     <title>Finology.in - Signup</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="flex-container">
+    <div class="flex-container login">
         <div class="col50 bg-rosebud mh100 flex-center flex-container flex-align-center">
             <div class="col60 text-center">
                 <div class="col100">
                     <object type="image/svg+xml" data="Images/Login-Hero.svg"></object>
                 </div>
+                <h1 class="fw700 cwhite">Start for free and get</h1>
+                <h2 class="mt05 fs15 fw700 cwhite">get attractive offers</h3>
             </div>
         </div>
         <div class="col50 bg-white">
-            <div class="flex-container flex-end">
+            <div class="flex-container flex-end mobilenav">
                 <div class="flex-container flex-between flex-align-center p1 pl2 pr2 fs15 fw500">
                     <a class="cprimary text-nounder p075 pl15 pr15" href="#">Home</a>
-                    <a class="cwhite text-nounder bg-blue pr15 pl15 p075 brad05 bt01 bl01 br01 bb02" href="#">Signup</a>
+                    <a class="cwhite text-nounder bg-darkrosebud pr15 pl15 brad05 btn-primary" href="#">Signup</a>
                 </div>
             </div>
+            <div class="flex-container flex-direction">
+                <div class="p4">
+                    <h1>Get's<span class="mobile-break"> Started.</span> </h1>
+                    <p class="mt1 cgray">Already have an account?<span> <a class="crosebud text-nounder" href="#">Log In</a></span></p>
+                </div>
+            </div>
+            <form>
+                <div class="flex-container flex-direction flex-center flex-align-center">
+                    <label class="fs1 fw700 pb1">Enter your Email address</label>
+                    <input type="email" class="border2 brad05 border-primary fs15 col40 p1 text-center" autofocus
+                        autocomplete="off" required placeholder="Eg. abc@gmail.com">
+                    <label class="fs1 fw700 pb1 pt2">Enter your Password</label>
+                    <input type="password" class="border2 brad05 border-primary fs15 col40 p1 text-center"
+                        placeholder="Enter your password" autocomplete="off" required>
+                    <button type="submit"
+                        class="cwhite cpointer bg-darkrosebud p1 col20 fw700 fs1125 mt2 brad05 btn-primary">Continue</button>
+                    <p class="mt1 fs1125 cgray pbs2" href="#">Forgot Password <span><a class="crosebud text-nounder" href="#">Click here</a></span></p>
+                </div>
+            </form>
         </div>
     </div>
 </body>

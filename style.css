@@ -3,6 +3,9 @@
     padding: 0rem;
     outline: none;
 }
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
 .flex-container{
     display: flex;
 }
@@ -42,13 +45,17 @@
 }
 .col60{
     width: 60%;
-}.col70{
+}
+.col70{
     width: 70%;
-}.col80{
+}
+.col80{
     width: 80%;
-}.col90{
+}
+.col90{
     width: 90%;
-}.col100{
+}
+.col100{
     width: 100%;
 }
 .p075{
@@ -153,6 +160,9 @@
 .m5{
     margin: 5rem;
 }
+.mt05{
+    margin-top: 0.5rem;
+}
 .mt1{
     margin-top: 1rem;
 }
@@ -216,8 +226,8 @@
 .bg-rosebud{
     background-color: #FFAD99;
 }
-.bg-blue{
-    background-color: #99EBFF;
+.bg-darkrosebud{
+    background-color: #FF8466;
 }
 .bg-white{
     background-color: #FFFFFF;
@@ -227,6 +237,9 @@
 }
 .fs1{
     font-size: 1rem;
+}
+.fs1125{
+    font-size: 1.125rem;
 }
 .fs15{
     font-size: 1.5rem;
@@ -246,6 +259,21 @@
 .fw500{
     font-weight: 500;
 }
+.fw600{
+    font-weight: 600;
+}
+.fw700{
+    font-weight: 700;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw900{
+    font-weight: 900;
+}
+.fw{
+    font-weight: 1000;
+}
 .mh100{
     min-height: 100vh;
 }
@@ -258,66 +286,62 @@
 .cwhite{
     color: #FFFFFF;
 }
+.crosebud{
+    color: #FFAD99;
+}
+.cgray{
+    color: #868B8E;
+}
 .text-nounder{
     text-decoration: none;
 }
 .brad05{
     border-radius: 0.5rem;
 }
-.bt01{
+.border2{
+    border-width: 2px;
+    border-style: solid;
+}
+.border-primary{
+    border-color: #000000;
+}
+::placeholder{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.cpointer{
+    cursor: pointer;
+}
+.btn-primary{
     border-top: 0.1rem;
-}
-.bt03{
-    border-top: 0.3rem;
-}
-.bt04{
-    border-top: 0.4rem;
-}
-.bt05{
-    border-top: 0.5rem;
-}
-.bl01{
     border-left: 0.1rem;
-}
-.bl02{
-    border-left: 0.2rem;
-}
-.bl03{
-    border-left: 0.3rem;
-}
-.bl04{
-    border-left: 0.4rem;
-}
-.bl05{
-    border-left: 0.5rem;
-}
-.br01{
     border-right: 0.1rem;
-}
-.br02{
-    border-right: 0.2rem;
-}
-.br03{
-    border-right: 0.3rem;
-}
-.br04{
-    border-right: 0.4rem;
-}
-.br05{
-    border-right: 0.5rem;
-}
-.bb01{
     border-bottom: 0.1rem;
 }
-.bb02{
-    border-bottom: 0.2rem;
-}
-.bb03{
-    border-bottom: 0.3rem;
-}
-.bb04{
-    border-bottom: 0.4rem;
-}
-.bb05{
-    border-bottom: 0.5rem;
+
+@media (max-width:600px) {
+     .login{
+        flex-direction: column-reverse;
+    }
+
+    .login .col50{
+        width: 100%;
+    }
+
+    .mobilenav{
+        justify-content: center;
+    }
+
+    .login .col40{
+        width: 70%;
+    }
+
+    .login .col20{
+        width: 60%;
+    }
+
+    .pbs2{
+        padding-bottom: 2rem;
+    }
+
 }
