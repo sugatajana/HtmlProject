@@ -51,6 +51,9 @@
 }.col100{
     width: 100%;
 }
+.p075{
+    padding: 0.75rem;
+}
 .p1{
     padding: 1rem;
 }
@@ -72,6 +75,9 @@
 .pl1{
     padding-left: 1rem;
 }
+.pl15{
+    padding-left: 1.5rem;
+}
 .pl2{
     padding-left: 2rem;
 }
@@ -86,6 +92,9 @@
 }
 .pr1{
     padding-right: 1rem;
+}
+.pr15{
+    padding-right: 1.5rem;
 }
 .pr2{
     padding-right: 2rem;
@@ -233,6 +242,9 @@
 }
 .fs5{
     font-size: 5rem;
+}
+.fw500{
+    font-weight: 500;
 }
 .mh100{
     min-height: 100vh;
