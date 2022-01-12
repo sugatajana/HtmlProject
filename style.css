@@ -28,6 +28,11 @@ body{
 .flex-end{
     justify-content: flex-end;
 }
+
+.list-none{
+    list-style: none;
+}
+
 .col10{
     width: 10%;
 }
@@ -235,11 +240,20 @@ body{
 .bg-primary{
     background-color: #000000;
 }
+.bg-ivory{
+    background-color: #EEEDE7;
+}
+.bg-lightgrey{
+    background-color: #B9B7BD;
+}
 .fs1{
     font-size: 1rem;
 }
 .fs1125{
     font-size: 1.125rem;
+}
+.fs125{
+    font-size: 1.25rem;
 }
 .fs15{
     font-size: 1.5rem;
@@ -319,6 +333,42 @@ body{
     border-bottom: 0.1rem;
 }
 
+.google-btn{
+    width: 148px;
+    height: 42px;
+    background-color: #4285F4;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+}
+
+.google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+  }
+
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
 @media (max-width:600px) {
      .login{
         flex-direction: column-reverse;
@@ -347,5 +397,7 @@ body{
     .mobile-break{
         display: block;
     }
+
+    
 
 }
